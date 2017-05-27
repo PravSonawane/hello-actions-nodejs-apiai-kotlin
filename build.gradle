@@ -28,5 +28,5 @@ dependencies {
 
 compileKotlin2Js.kotlinOptions {
     moduleKind = "commonjs"
-    outputFile = "node/index.js"
+    outputFile = "node/module_out.js"
 }

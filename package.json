@@ -1,0 +1,32 @@
+{
+  "name": "hello-actions",
+  "description": "Google Actions Repeat Number example using nodejs, kotlin and actions-on-google",
+  "version": "0.0.1",
+  "private": true,
+  "license": "Apache-2.0",
+  "author": "Pravin Sonawane",
+  "scripts": {
+    "lint": "semistandard \"**/*.js\"",
+    "start": "functions deploy numberRepeater --trigger-http",
+    "deploy": "gcloud beta functions deploy numberRepeater --trigger-http --stage-bucket <storage_bucket_name>",
+    "test": "npm run lint"
+  },
+  "semistandard": {
+    "globals": [
+      "after",
+      "afterEach",
+      "before",
+      "beforeEach",
+      "describe",
+      "it"
+    ]
+  },
+  "dependencies": {
+    "actions-on-google": "^1.1.0",
+    "kotlin": "^1.1.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0"
+  }
+}
