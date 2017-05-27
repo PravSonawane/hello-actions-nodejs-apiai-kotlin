@@ -31,7 +31,6 @@ gradle-app.setting
 *.jar
 *.war
 *.ear
-*.zip
 *.tar.gz
 *.rar
 

@@ -11,7 +11,7 @@ demonstrate how Apps for the Google Assistant can be written using Kotlin. This 
 1. Click "Save" to save the project.
 1. Click on the gear icon to see the project settings.
 1. Select "Export and Import".
-1. Select "Restore from zip". Follow the directions to restore from the SillyNameMaker.zip in this repo.
+1. Select "Restore from zip". Follow the directions to restore from the hello-actions.zip in this repo.
 1. Deploy the fulfillment webhook to your preferred hosting environment
 (we recommend [Google Cloud Functions](https://cloud.google.com/functions/docs/tutorials/http)).
 1. In the Fulfillment page of the API.AI console, enable Webhook, set the URL to the hosting URL, then save.
