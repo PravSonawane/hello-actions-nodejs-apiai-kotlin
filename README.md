@@ -1,5 +1,7 @@
 # Actions on Google: Number Repeater Sample using Node.js, API AI and Kotlin
 
+<img src="/art/screenshot.png" width="250" />
+
 This is a super simple Assistant app, built using API.AI and Node.js and Kotlin, to
 demonstrate how Apps for the Google Assistant can be written using Kotlin. This app simply requests the user to enter/say a number and repeats it.
 
