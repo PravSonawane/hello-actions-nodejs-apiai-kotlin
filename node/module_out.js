@@ -3,7 +3,7 @@
   function repeat(number) {
     return number;
   }
-  _.repeat_za3lpa$ = repeat;
+  _.repeat = repeat;
   Kotlin.defineModule('module_out', _);
   return _;
 }(module.exports, require('kotlin')));

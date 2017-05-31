@@ -4,4 +4,5 @@
 /**
  * Function that returns the given number as is.
  */
+@JsName("repeat")
 fun repeat(number:Int) = number

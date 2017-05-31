@@ -18,15 +18,15 @@ exports.numberRepeater = (request, response) => {
   console.log('Request headers: ' + JSON.stringify(request.headers));
   console.log('Request body: ' + JSON.stringify(request.body));
 
-  // Make a silly name
-  function makeName (app) {
+  // Just repeat the number
+  function repeatNumberFun (app) {
     let number = app.getArgument(NUMBER_ARGUMENT);
-    app.tell('Awesome! Your number is ' + number +
+    app.tell('Awesome! Your number is ' + module.repeat(number) +
       '! I hope I can do more next time! See you!');
   }
 
   let actionMap = new Map();
-  actionMap.set(REPEAT_NUMBER_ACTION, makeName);
+  actionMap.set(REPEAT_NUMBER_ACTION, repeatNumberFun);
 
   app.handleRequest(actionMap);
 };
